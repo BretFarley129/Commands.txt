@@ -1,0 +1,132 @@
+
+C:\Users\Bret>cd desktop
+
+C:\Users\Bret\Desktop>cd coding_dojo
+
+C:\Users\Bret\Desktop\Coding_Dojo>cd web_fun
+
+C:\Users\Bret\Desktop\Coding_Dojo\Web_Fun>cd ../..
+
+C:\Users\Bret\Desktop>md test
+
+C:\Users\Bret\Desktop>cd test
+
+C:\Users\Bret\Desktop\test>copy NUL index.html
+        1 file(s) copied.
+
+C:\Users\Bret\Desktop\test>copy NUL styles.css
+        1 file(s) copied.
+
+C:\Users\Bret\Desktop\test>copy NUL commands.txt
+        1 file(s) copied.
+
+C:\Users\Bret\Desktop\test>dir
+ Volume in drive C is Windows7_OS
+ Volume Serial Number is AE07-FB4A
+
+ Directory of C:\Users\Bret\Desktop\test
+
+09/18/2017  08:44 PM    <DIR>          .
+09/18/2017  08:44 PM    <DIR>          ..
+09/18/2017  08:44 PM                 0 commands.txt
+09/18/2017  08:43 PM                 0 index.html
+09/18/2017  08:44 PM                 0 styles.css
+               3 File(s)              0 bytes
+               2 Dir(s)  540,146,737,152 bytes free
+
+C:\Users\Bret\Desktop\test>copy index.html index_2.html
+        1 file(s) copied.
+
+C:\Users\Bret\Desktop\test>del styles.css
+
+C:\Users\Bret\Desktop\test>dir
+ Volume in drive C is Windows7_OS
+ Volume Serial Number is AE07-FB4A
+
+ Directory of C:\Users\Bret\Desktop\test
+
+09/18/2017  08:45 PM    <DIR>          .
+09/18/2017  08:45 PM    <DIR>          ..
+09/18/2017  08:44 PM                 0 commands.txt
+09/18/2017  08:43 PM                 0 index.html
+09/18/2017  08:43 PM                 0 index_2.html
+               3 File(s)              0 bytes
+               2 Dir(s)  540,146,737,152 bytes free
+
+
+C:\Users\Bret\Desktop\test>
+C:\Users\Bret\Desktop\test>cd ..
+
+C:\Users\Bret\Desktop>md destination
+
+C:\Users\Bret\Desktop>cd test
+
+
+C:\Users\Bret\Desktop\test>move index_2.html ..\destination
+        1 file(s) moved.
+
+C:\Users\Bret\Desktop\test>dir
+ Volume in drive C is Windows7_OS
+ Volume Serial Number is AE07-FB4A
+
+ Directory of C:\Users\Bret\Desktop\test
+
+09/18/2017  08:48 PM    <DIR>          .
+09/18/2017  08:48 PM    <DIR>          ..
+09/18/2017  08:44 PM                 0 commands.txt
+09/18/2017  08:43 PM                 0 index.html
+               2 File(s)              0 bytes
+               2 Dir(s)  540,146,192,384 bytes free
+
+C:\Users\Bret\Desktop\test>cd ..
+
+C:\Users\Bret\Desktop>cd destination
+
+C:\Users\Bret\Desktop\destination>dir
+ Volume in drive C is Windows7_OS
+ Volume Serial Number is AE07-FB4A
+
+ Directory of C:\Users\Bret\Desktop\destination
+
+09/18/2017  08:48 PM    <DIR>          .
+09/18/2017  08:48 PM    <DIR>          ..
+09/18/2017  08:43 PM                 0 index_2.html
+               1 File(s)              0 bytes
+               2 Dir(s)  540,146,065,408 bytes free
+
+C:\Users\Bret\Desktop\destination>cd ..
+
+C:\Users\Bret\Desktop>rd /s destination
+destination, Are you sure (Y/N)? y
+
+C:\Users\Bret\Desktop>dir
+ Volume in drive C is Windows7_OS
+ Volume Serial Number is AE07-FB4A
+
+ Directory of C:\Users\Bret\Desktop
+
+09/18/2017  08:51 PM    <DIR>          .
+09/18/2017  08:51 PM    <DIR>          ..
+08/05/2016  11:37 PM    <DIR>          bin
+02/09/2017  09:29 PM    <DIR>          Class materials
+02/25/2016  01:39 AM             1,106 CodeBlocks.lnk
+09/18/2017  01:42 PM    <DIR>          Coding_Dojo
+08/23/2017  03:25 PM             2,173 Discord.lnk
+08/15/2017  03:20 PM    <DIR>          Dojo
+07/22/2017  05:54 PM             6,205 flat800x800075f.jpg
+09/18/2017  01:53 PM        37,255,040 Git-2.14.1-64-bit.exe
+01/26/2013  06:57 PM    <DIR>          minecraft_classic_server
+02/07/2017  03:27 PM    <DIR>          Music stuff
+02/07/2017  03:30 PM    <DIR>          Office
+02/07/2017  03:33 PM    <DIR>          Raspberry Pi Stuff
+02/08/2017  10:15 PM    <DIR>          Resume materials
+04/16/2015  03:42 PM             1,814 Spotify.lnk
+09/18/2017  08:48 PM    <DIR>          test
+10/25/2012  04:04 PM    <DIR>          This is a folder
+09/18/2017  08:39 AM    <DIR>          uh
+09/18/2017  08:41 AM    <DIR>          Unused shortcuts
+               5 File(s)     37,266,338 bytes
+              15 Dir(s)  540,146,130,944 bytes free
+
+C:\Users\Bret\Desktop>
+C:\Users\Bret\Desktop>
